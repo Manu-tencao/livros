@@ -1,0 +1,195 @@
+<html>
+<link redocument. Write"image/bmp" href="https://manu-tencao.github.io/livros/quiz.JPG" />
+<head><script language="JavaScript">
+<!--
+var point=0;
+function reponse(form) {
+ for (var i=0;i<form.length;i++){
+  if (form[i].checked){
+   break
+  }
+ }
+ var answer=""
+ if (i<form.length){
+  answer = form[i].value
+ }
+ return answer;
+}
+
+function solution(form) {
+ var points=0;var rep="";var comment=""
+
+ if (reponse(form.question1)=="A") {points+=1}
+ if (reponse(form.question2)=="A") {points+=1}
+ if (reponse(form.question3)=="A") {points+=1}
+ if (reponse(form.question4)=="A") {points+=0}
+ if (reponse(form.question5)=="A") {points+=0}
+ if (reponse(form.question6)=="A") {points+=0}
+ if (reponse(form.question7)=="A") {points+=1}
+ if (reponse(form.question8)=="A") {points+=0}
+ if (reponse(form.question9)=="A") {points+=0}
+ if (reponse(form.question10)=="A") {points+=0}
+ 
+
+
+ if (reponse(form.question1)=="B") {points+=0}
+ if (reponse(form.question2)=="B") {points+=0}
+ if (reponse(form.question3)=="B") {points+=0}
+ if (reponse(form.question4)=="B") {points+=1}
+ if (reponse(form.question5)=="B") {points+=0}
+ if (reponse(form.question6)=="B") {points+=0}
+ if (reponse(form.question7)=="B") {points+=0}
+ if (reponse(form.question8)=="B") {points+=1}
+ if (reponse(form.question9)=="B") {points+=0}
+ if (reponse(form.question10)=="B") {points+=0}
+ 
+ if (reponse(form.question1)=="C") {points+=0}
+ if (reponse(form.question2)=="C") {points+=0}
+ if (reponse(form.question3)=="C") {points+=0}
+ if (reponse(form.question4)=="C") {points+=0}
+ if (reponse(form.question5)=="C") {points+=1}
+ if (reponse(form.question6)=="C") {points+=1}
+ if (reponse(form.question7)=="C") {points+=0}
+ if (reponse(form.question8)=="C") {points+=0}
+ if (reponse(form.question9)=="C") {points+=1}
+ if (reponse(form.question10)=="C") {points+=1}
+ 
+
+
+
+
+ if (points==0) {comment=" 0% Talvez você não tenha entendido a dinâmica, responda novamente "}
+ if (points==1) {comment=" 10% "}
+ if (points==2) {comment=" 20% "}
+ if (points==3) {comment=" 30% "}
+ if (points==4) {comment=" 40% "}
+ if (points==5) {comment=" 50% "}
+ if (points==6) {comment=" 60% "}
+ if (points==7) {comment=" 70% "}
+ if (points==8) {comment=" 80% "}
+ if (points==9) {comment=" 90% "}
+ if (points==10) {comment=" 100% Parabéns você acertou todas as questões "}
+ 
+
+
+ chaine=''
+ +'<HTML><BODY><CENTER>'
+ +'<title>Quiz de português vol1</title>'
+ +'<body style="font-size: 36 pt; color: #008000; font-weight: bold">'
+ +'<body bgcolor="#C0C0C0">'
+ +'<font size="5">Você tem '+points+' pontos. '+comment+'</font><BR><BR><BR><BR><BR>'
+ +'<p align="center"><a href="https://manu-tencao.github.io/livros/resultado.html"><iframe name="I1" width="866" height="1300" border="0" frameborder="0" target="I2" src="https://manu-tencao.github.io/livros/resultado.html"></iframe>'
+ +'</CENTER></BODY></HTML>'
+
+ solu=open();
+ solu.document.write(chaine)
+
+}
+
+//-->
+</script>
+
+<title>Quiz Português Vol1</title>
+<base target="I2">
+</head>
+
+<p align="center"><!--webbot bot="HTMLMarkup" startspan TAG="XBOT" --><form NAME="QCM"><!--webbot bot="HTMLMarkup" endspan
+-->
+<u>
+
+</p>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="860" bgcolor="#FAF200">
+    
+    <tr>
+      <td width="860">
+      <center><div style="width:100%">
+  <img src="https://manu-tencao.github.io/cursos/0d2b0c3db81f4d728d0dbc10195c1319.png" style="width:100%">
+</div>
+      </td>
+    </tr>
+    <tr>
+      <td width="860">
+      <p align="center"><font size="6">Faça um teste aqui para descobrir o 
+      seu português</font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="80%" height="691">
+    <tr>
+      <td width="94%" height="672" align="center">
+&nbsp;<p><u>
+
+      <font size="5">Avaliação Rápida</font></u>
+</p>
+<p>&nbsp;Responda abaixo:<hr>
+<p>01) Ratificar quer dizer?:<br>
+<input TYPE="RADIO" NAME="question1" VALUE="A"> Confirmar<br>
+<input TYPE="RADIO" NAME="question1" VALUE="B"> Corrigir<br>
+<input TYPE="RADIO" NAME="question1" VALUE="C"> Carregar<hr>
+<p>02) É correto a mulher dizer?:<br>
+<input TYPE="RADIO" NAME="question2" VALUE="A"> Estou meio cansada<br>
+<input TYPE="RADIO" NAME="question2" VALUE="B"> Estou meia cansada<br>
+<input TYPE="RADIO" NAME="question2" VALUE="C"> Estou meias cansada<hr>
+<p>03) É correto falar?:<br>
+<input TYPE="RADIO" NAME="question3" VALUE="A"> Para eu fazer<br>
+<input TYPE="RADIO" NAME="question3" VALUE="B"> Para mim fazer<br>
+<input TYPE="RADIO" NAME="question3" VALUE="C"> Pra mim fazer<hr>
+<p>04) É certo dizer? :<br>
+<input TYPE="RADIO" NAME="question4" VALUE="A"> Fazem 10 anos que estamos juntos<br>
+<input TYPE="RADIO" NAME="question4" VALUE="B"> Faz 10 anos que estamos juntos <br>
+<input TYPE="RADIO" NAME="question4" VALUE="C"> Fazem-se 10 anos que estamos juntos<hr>
+<p>05) O diminuitivo de foto é? (doações, ofertas ou dízimos):<br>
+<input TYPE="RADIO" NAME="question5" VALUE="A"> Fotinha<br>
+<input TYPE="RADIO" NAME="question5" VALUE="B"> Minefoto<br>
+<input TYPE="RADIO" NAME="question5" VALUE="C"> Fotinho<br>
+&nbsp;<hr>
+<p>06) É correto falar o sentimento dó?:<br>
+<input TYPE="RADIO" NAME="question6" VALUE="A"> Estou com muita dó<br>
+<input TYPE="RADIO" NAME="question6" VALUE="B"> Estou com muitissima dó <br>
+<input TYPE="RADIO" NAME="question6" VALUE="C"> Estou com muito dó<br>
+&nbsp;<hr>
+<p>
+07) É correto uma mulher dizer?:<br>
+<input TYPE="RADIO" NAME="question7" VALUE="A"> Estou todo de preto<br>
+<input TYPE="RADIO" NAME="question7" VALUE="B"> Estou toda de preto<br>
+<input TYPE="RADIO" NAME="question7" VALUE="C"> Estou todas de preto<br>
+&nbsp;<hr>
+<p>
+08) É correto dizer que alguem?:<br>
+<input TYPE="RADIO" NAME="question8" VALUE="A"> Bateu récorde<br>
+<input TYPE="RADIO" NAME="question8" VALUE="B"> Bateu recorde<br>
+<input TYPE="RADIO" NAME="question8" VALUE="C"> Bateu recórde<br>
+&nbsp;<hr>
+<p>
+09) É certo escrever?:<br>
+<input TYPE="RADIO" NAME="question9" VALUE="A"> Concerteza<br>
+<input TYPE="RADIO" NAME="question9" VALUE="B"> Con certeza<br>
+<input TYPE="RADIO" NAME="question9" VALUE="C"> Com certeza <br>
+&nbsp;<hr>
+<p>
+10) É correto escrever?:<br>
+<input TYPE="RADIO" NAME="question10" VALUE="A"> Apartirde<br>
+<input TYPE="RADIO" NAME="question10" VALUE="B"> Apartir de<br>
+<input TYPE="RADIO" NAME="question10" VALUE="C"> A partir de<hr>
+<p>
+<br>
+
+
+<input TYPE="BUTTON" NAME="valide" VALUE="RESULTADO"
+onclick="javascript:solution(this.form);"></td>
+    </tr>
+    </table>
+  </center>
+</div>
+
+<p> </u> <br>
+<br>
+</p>
+
+</body>
+</html>
